@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="http//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css">
+    <script
+    defer
+    src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+  ></script>
+    <script defer src="js/script.js"></script>
+    
+    <title>Brick by Brick - Collections</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    
+  </head>
+  <body>
+    <header class=" header-container sticky ">
+      <!-- HEADER -->
+      <div class="header container">
+         
+          <a href="index.html">
+            <img class="header__logo " alt="Brick By Brick logo" src="img/logos/bb-logo-white.png" />
+          </a>
+       
+          <div class="header__account">
+              <div class="search-container">
+                <form class="header__search-form">
+                  <input type="search" placeholder="Search..." class="">
+                  <button type="submit" class="search">Search</button>
+                </form>
+              </div>
+              <!-- Mobile nav -->
+              
+              <div  class="vertical-line"></div>
+
+             <!--log in account  -->
+             <div class="account-user">
+            <a href="collections.html" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1" stroke="#eee" class="user-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg> </a>
+                <p class="user-name">Joseph</p>    
+              </div>
+          <a href="account.html" class="btn btn--full" >SIGN UP</a>
+          </div>
+
+              <!-- MOBILE NAVIGATION -->
+          <div class="mob-nav">
+
+            <div class="icon-mobile-account ">
+              <ion-icon class="icon icon-mobile-nav" name="search"></ion-icon>
+              <div class="account-user">
+              <a href="collections.html" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1" stroke="#eee" class="user-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg> </a>
+                <p class="paragraph user-name">Joseph</p></div>
+            </div>
+            <button class="btn-mobile-nav ">
+              
+              <ion-icon class="icon icon-mobile-nav" name="menu"></ion-icon>
+              <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+            </button>
+          
+          </div>
+      
+          
+          
+      </div>
+    
+    
+    </header>
+
+    <nav class="main-nav container nav-sticky">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="index.html">HOME</a></li>
+       
+       <!-- Nav with dowpdown -->
+        <li class="dropdown"><a class="main-nav-link active" href="collections.html"><span class="text">COLLECTIONS</span><ion-icon name="chevron-down-outline" class="icon icon-white"></ion-icon></a>
+          <ul class="nav-menu ">
+            <li  class="main-nav-list"><a href="#" class= "main-nav-link" data-hover=" ">MYSETS</a></li>
+            <li class="main-nav-list"><a href="3" data-hover=" " class= "main-nav-link ">MOCs</a></li>
+            <li class="main-nav-list"><a href="3" data-hover=" " class= "main-nav-link ">WISHLIST</a></li>
+        </ul>
+
+        </li>
+        <li><a class="main-nav-link" href="about.html">ABOUT</a></li>
+        <li><a class="main-nav-link" href="blog.html">BLOG</a></li>
+        <li><a class="main-nav-link" href="contact.html">CONTACT</a></li>
+        
+      </ul>
+    </nav>
+
+
+
+    <main class="container">
+      <!-- PAGE BREADCRUM -->
+      <div class="page__breadcrumb margin-bottom-sm">
+        <h2 class="page__title heading-secondary">MY SETS</h2>
+        <div >
+          <ul class="breadcrumb__list">
+            <li><a  href="index.html" class="link"><p >HOME</p></a></li>
+            <li><ion-icon name="chevron-forward-outline"></ion-icon></li>
+            <li><a  href="about.html" class="link"><strong >COLLECTIONS</strong></a></li>
+            
+          </ul>
+
+        </div>
+
+      </div>
+
+      <!-- LEGO SETS COLLECTIONS SECTION -->
+      
+     <section class="section-collections margin-bottom-md ">
+      <!-- Sidebar Menu -->
+      <aside class="collections__menu">
+        
+      <div class="menu menu__mysets active-menu">
+        <p class="paragraph">MY SETS</p>
+        <a href="#"><ion-icon class="icon" name="chevron-down-outline"></ion-icon></a>
+        
+      </div>
+      <div class="mysets__sub-menu">
+        <div class=" sub-menu mysets-view-all-sets">View all Lego sets</div>
+        <div class=" sub-menu mysets-add-new">Add new Lego set</div>
+        <div class=" sub-menu mysets-edit">Edit sets</div>
+  </div>
+      <div class="menu menu__mocs">
+        <!-- <div class="mocs__sub-menu hidden">
+          <div class="mocs-view-all-sets">View all MOCs</div>
+          <div class="menu mocs-add-new">Add new MOC</div>
+          <div class="menu mocs-edit">Edit MOC</div>
+        </div> -->
+        <p class="paragraph">MOCs</p>
+        <a href="#"><ion-icon class="icon" name="chevron-down-outline"></ion-icon></a>
+      </div>
+      <div class="menu menu__wishlist">
+        <!-- <div class="wishlist__sub-menu hidden">
+        <div class=menu "wishlist-view-all-sets">View all wishlist</div>
+        <div class="menu wishlist-add-new">Add new set</div>
+        <div class="menu wishlist-edit">Edit set</div>
+        </div> -->
+        <p class="paragraph">WISHLIST</p>
+        <a href="#"><ion-icon class="icon" name="chevron-down-outline"></ion-icon></a>
+      
+      </div>
+      <div class="menu paragraph menu-edit-profile">UPDATE PROFILE</div>
+      <div class="menu paragraph menu-online-shop">ONLINE SHOPS</div>
+      <div class="menu paragraph menu-update-blog">UPDATE BLOG</div>
+    </aside>
+
+      
+      <section>
+       
+        <!-- product filter and views -->
+      <div class="catalogue-nav">
+        <div class="catalogue__filter">
+          <strong class="paragraph">Jump to:</strong>
+          <a href="#"><p class="paragraph">Newest</p></a>
+          <a href="#"><p class="paragraph">Oldest</p></a>
+          <a href="#"><p class="paragraph">favourite sets</p></a>
+        </div>
+        <div class="catalogue__view">
+        
+          <div class="view-more">
+          <a href="#" class="quickview "><span class="text ">Sort by:A - Z</span><ion-icon class="icon" name="chevron-down-outline"></ion-icon></a>
+          </div>
+          <ion-icon name="grid-outline"></ion-icon><span class="paragraph">Grid</span>
+
+          <ion-icon name="list-outline"></ion-icon><span class="paragraph">List</span>
+        </div>   
+      </div>
+       <!--Lego sets catalogue  -->
+      <div class="catalogue ">
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/war-craft.jpg" alt="" class="lego-set__img"></a>
+          
+            <p class="set__title">LOREM QUATA MELINATI
+            </p>
+            <div class="action">
+              <ion-icon name="heart-outline" class="icon"></ion-icon>
+              <div class="view-more">
+              <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+              </div> 
+          </div>
+          </div>
+          
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/white-robot-head.jpg" alt="" class="lego-set__img"></a><p class="set__title">LOREM QUATA MELINATI
+          </p>
+          <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+        </div></div>
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/tank-car.jpg" alt="" class="lego-set__img"></a><p class="set__title">LOREM QUATA MELINATI
+          </p>
+          <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+        </div></div>
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/tala-inn.jpg" alt="" class="lego-set__img"></a><p class="set__title">LOREM QUATA MELINATI
+          </p>
+          <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+        </div></div>
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/tajmahal.jpg" alt="" class="lego-set__img"></a><p class="set__title">LOREM QUATA MELINATI
+          </p>
+          <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+        </div></div>
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/doggy.jpg" alt="" class="lego-set__img"></a><p class="set__title">LOREM QUATA MELINATI
+          </p>
+          <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+        </div></div>
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/motocycle.jpg" alt="" class="lego-set__img"></a><p class="set__title">LOREM QUATA MELINATI
+          </p>
+          <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+        </div></div>
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/train.jpg" alt="" class="lego-set__img"></a><p class="set__title">LOREM QUATA MELINATI
+          </p>
+          <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+        </div></div>
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/lego-halloween.jpg" alt="" class="lego-set__img"></a><p class="set__title">LOREM QUATA MELINATI
+          </p>
+          <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+        </div></div>
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/dinosour.jpg" alt="" class="lego-set__img"></a><p class="set__title">LOREM QUATA MELINATI
+          </p>
+          <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+        </div></div>
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/robot-head-black.jpg" alt="" class="lego-set__img"></a><p class="set__title">LOREM QUATA MELINATI
+          </p>
+          <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+        </div></div>
+          <div class="card card-collections"><a href="#" class="link"><img src="img/mysets/airplane.jpg" alt="" class="lego-set__img"></a><p class="set__title">LOREM QUATA MELINATI
+          </p>
+          <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+        </div></div>
+         
+          
+      </div>
+      <div class="pagination paragraph">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a  href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+      </div>   
+    </section>     
+    </section>
+
+         
+    
+    </main >
+
+    <footer class=" footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Brick by Brick logo" src="img/logos/bb-logo-white.png" />
+          </a>
+          <div>
+          <ul class="social-links">
+              <p class="social-links-title">Follow me on:</p>
+             <li> 
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2022 Design and developed by Sui Ca Khen. All rights reserved.
+          </p>
+          </div>
+      </div>
+        <div class="address-col">
+          <p class="footer-heading"> Menu</p>
+         
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="collections.html">Collections</a></li>
+              <li><a class="footer-link" href="mysets.html">My sets</a></li>
+              <li><a class="footer-link" href="mocs.html">MOCs</a></li>
+              <li><a class="footer-link" href="wishlist.html">My wishlist</a></li> 
+            </ul>
+           
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="account.html">Create account</a></li>
+            <li><a class="footer-link" href="account.html">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+            
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">About Us</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Brick by Brick</a></li>
+            <li><a class="footer-link" href="#">Contact us</a></li>
+            <li><a class="footer-link" href="#">Join our community</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+
+          </ul>
+        </nav>
+
+       
+      </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="http//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css">
+
+    <script
+    defer
+    src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+  ></script>
+    <script defer src="js/script.js"></script>
+    <title>Brick by Brick - Blog </title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+   
+  </head>
+  <body>
+    <header class=" header-container sticky ">
+      <!-- HEADER -->
+      <div class="header container">
+         
+          <a href="index.html">
+            <img class="header__logo " alt="Brick By Brick logo" src="img/logos/bb-logo-white.png" />
+          </a>
+       
+          <div class="header__account">
+              <div class="search-container">
+                <form class="header__search-form">
+                  <input type="search" placeholder="Search..." class="">
+                  <button type="submit" class="search">Search</button>
+                </form>
+              </div>
+              <!-- Mobile nav -->
+              
+              <div  class="vertical-line"></div>
+
+             <!--log in account  -->
+             <div class="account-user">
+            <a href="collections.html" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1" stroke="#eee" class="user-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg> </a>
+                <p class="user-name">Joseph</p>    
+              </div>
+          <a href="account.html" class="btn btn--full" >SIGN UP</a>
+          </div>
+
+              <!-- MOBILE NAVIGATION -->
+          <div class="mob-nav">
+
+            <div class="icon-mobile-account ">
+              <ion-icon class="icon icon-mobile-nav" name="search"></ion-icon>
+              <div class="account-user">
+              <a href="collections.html" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1" stroke="#eee" class="user-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg> </a>
+                <p class="paragraph user-name">Joseph</p></div>
+            </div>
+            <button class="btn-mobile-nav ">
+              
+              <ion-icon class="icon icon-mobile-nav" name="menu"></ion-icon>
+              <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+            </button>
+          
+          </div>
+      
+          
+          
+      </div>
+    
+    
+    </header>
+
+    <nav class="main-nav container nav-sticky">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="index.html">HOME</a></li>
+       
+       <!-- Nav with dowpdown -->
+        <li class="dropdown"><a class="main-nav-link " href="collections.html"><span class="text">COLLECTIONS</span><ion-icon name="chevron-down-outline" class="icon icon-white"></ion-icon></a>
+          <ul class="nav-menu ">
+            <li  class="main-nav-list"><a href="#" class= "main-nav-link" data-hover=" ">MYSETS</a></li>
+            <li class="main-nav-list"><a href="3" data-hover=" " class= "main-nav-link ">MOCs</a></li>
+            <li class="main-nav-list"><a href="3" data-hover=" " class= "main-nav-link ">WISHLIST</a></li>
+        </ul>
+
+        </li>
+        <li><a class="main-nav-link" href="about.html">ABOUT</a></li>
+        <li><a class="main-nav-link active" href="blog.html">BLOG</a></li>
+        <li><a class="main-nav-link" href="contact.html">CONTACT</a></li>
+        
+      </ul>
+    </nav>
+    <main class="container">
+      <!-- PAGE BREADCRUM -->
+      <div class="page__breadcrumb">
+        <h2 class="page__title heading-secondary">BLOG</h2>
+        <div >
+          <ul class="breadcrumb__list">
+            <li><a  href="index.html" class="link"><p >HOME</p></a></li>
+            <li><ion-icon name="chevron-forward-outline"></ion-icon></li>
+            <li><a  href="about.html" class="link"><strong>BLOG PAGE</strong></a></li>
+            
+          </ul>
+
+        </div>
+
+      </div>
+
+      <!-- BLOG PAGE  -->
+     <section class="section-blog margin-bottom-md ">
+        
+
+        <div class="blog-container">
+        <div class="blog">
+          <h3 class="heading-tertiary">LATEST ARTICLES</h3>
+          <div class="blog-post">
+
+          <div class="card-post blog__post-1 margin-bottom-sm">
+           <a href="#" class="link"> <img src="img/blog-img/blog-img1.png" alt="Blog cover image" class="blog__cover-img"></a>
+
+            <div class="post-info">
+              <div class="post__date paragraph">Oct 24,2022</div>
+              <a href="" class="link"><p class="paragraph post__title ">CHALLENGES ARE THE NEW CONTESTS
+              </p></a>
+              <div class="post__descriptions paragraph margin-bottom-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis rerum odit laudantium corporis, illum nam tenetur unde similique! Dolorem!
+              </div>
+              <div class="post__author">
+                <img src="img/post-author/ben.jpg" alt="Post Author" class="post__author-picture"><span class="author-name">Ben Simons</span>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="card-post blog__post-2 margin-bottom-sm">
+           <a href="#" class="link"> <img src="img/blog-img/blog-img2.png" alt="Post cover image" class="blog__cover-img"></a>
+            <div class="post-info">
+              <div class="post__date paragraph">Oct 24,2022</div>
+              <a href="#" class="link"><p class="paragraph post__title ">CHALLENGES ARE THE NEW CONTESTS
+              </p></a>
+              <div class="post__descriptions paragraph margin-bottom-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis rerum odit laudantium corporis, illum nam tenetur unde similique! Dolorem!
+              </div>
+              <div class="post__author">
+                <img src="img/post-author/customer-2.jpg" alt="Post Author" class="post__author-picture"><span class="author-name">Joseph Smith</span>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="card-post blog__post-3 margin-bottom-sm">
+           <a href="#" class="link"> <img src="img/blog-img/blog-img3.png" alt="Blog post cover" class="blog__cover-img"></a>
+            <div class="post-info">
+              <div class="post__date paragraph">Oct 24,2022</div>
+              <a href="#" class="link"><p class="paragraph post__title ">CHALLENGES ARE THE NEW CONTESTS
+              </p></a>
+              <div class="post__descriptions paragraph margin-bottom-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis rerum odit laudantium corporis, illum nam tenetur unde similique! Dolorem!
+              </div>
+              <div class="post__author">
+                <img src="img/post-author/customer-1.jpg" alt="Post Author" class="post__author-picture"><span class="author-name">Honey Lee</span>
+                
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="pagination paragraph">
+            <a href="#">&laquo;</a>
+            <a href="#" class="active">1</a>
+            <a  href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+          </div>
+        </div> 
+        <aside class="blog__sidebar ">
+          <div class="recent-post margin-bottom-sm">
+            <h3 class="heading-tertiary">RECENT POSTS</h3>
+        
+          <ul class="list">
+            <li><a href="#" class=" link "><p class="post__title">Lego's build to give campaign returns.</p><div class="post__date ">Oct 24,2022</div></a></li>
+            <li><a href="#" class=" link  "><p class="post__title">New Lego avator way of the water 2023 set launch!</p><div class="post__date ">Aug 10,2022</div></a></li>
+            <li><a href="#" class=" link "><p class="post__title">Lorem ipsum dolor sit, amet consectetur elit. </p><div class="post__date ">june 2,2022</div></a></li>
+            <li><a href="#" class=" link "><p class="post__title">Lorem ipsum dolor sit, amet consect adipisicing elit. Dignissimos, aperiam!</p><div class="post__date ">Nov 3,2022</div></a></li>
+            <li><a href="#" class=" link"><p class="post__title">New Lego avator way of the water 2023 set launch! </p><div class="post__date ">Oct 6,2022</div></a></li>
+          </ul>
+        
+          </div>
+          <div class="review">
+            <h3 class="heading-tertiary">LEGO SETS REVIEWS</h3>
+          </div>
+          <ul class="list ">
+            <li><a href="#" class=" link paragraph">LEGO Icons (Creator Expert) 2HY 2022. 
+             </a></li>
+            <li><a href="#" class="paragraph link"> Creator 3-in-1 2HY 2022.</a></li>
+            <li><a href="#" class="paragraph link"> Architecture 2HY 2022.</a></li>
+            <li><a href="#" class="paragraph link"> Avatar (James Cameron, not the Last Airbender)</a></li>
+            <li><a href="#" class="paragraph link"> LEGO Marvel Super Heroes 2HY 2022.</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+    
+    <section class="margin-bottom-md">
+      <h3 class="heading-tertiary"> POPULAR POSTS</h3>
+          <div class="popular-post ">
+            <div class="card post-1">
+              <a><img src="img/blog-img/blog-img4.png" alt="Popular post" class="card-img" /></a>
+                  <a><p class="paragraph post__title">Lorem ipsum dolor sit amet consectetur omnis!</p></a>
+
+            </div>
+            <div class="card post-2 ">
+              <a><img src="img/blog-img/blog-img5.png" alt="Popular post" class="card-img"></a>
+
+                <a><p class="paragraph  post__title">Tempore eaque dolores vel sapiente quas omnis!</p></a>
+            </div>
+            <div class="card post-3">
+              <a><img src="img/blog-img/blog-img6.png" alt="Popular post" class="card-img"></a>
+              <a><p class="paragraph post__title"> Tempore eaque dolores vel sapiente quas omnis!</p></a>
+          </div>
+        </div>
+     
+    </section>           
+     
+    </main >
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="index.html" class="footer-logo">
+            <img class="logo" alt="Brick by Brick logo" src="img/logos/bb-logo-white.png" />
+          </a>
+          <div>
+          <ul class="social-links">
+              <p class="social-links-title">Follow me on:</p>
+             <li> 
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2022 Design and developed by Sui Ca Khen. All rights reserved.
+          </p>
+          </div>
+      </div>
+        <div class="address-col">
+          <p class="footer-heading"> Menu</p>
+         
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="collections.html">Collections</a></li>
+              <li><a class="footer-link" href="mysets.html">My sets</a></li>
+              <li><a class="footer-link" href="mocs.html">MOCs</a></li>
+              <li><a class="footer-link" href="wishlist.html">My wishlist</a></li> 
+            </ul>
+           
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="account.html">Create account</a></li>
+            <li><a class="footer-link" href="account.html">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+            
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">About Us</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="about.html">About Brick by Brick</a></li>
+            <li><a class="footer-link" href="contact.html">Contact us</a></li>
+            <li><a class="footer-link" href="blog.html">Join our community</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+
+          </ul>
+        </nav>
+
+       
+      </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

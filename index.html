@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="http//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    
+    <title>Brick by Brick - Homepage </title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <script
+    defer
+    src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+  ></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header class=" header-container sticky ">
+      <!-- HEADER -->
+      <div class="header container">
+         
+          <a href="index.html">
+            <img class="header__logo " alt="Brick By Brick logo" src="img/logos/bb-logo-white.png" />
+          </a>
+       
+          <div class="header__account">
+              <div class="search-container">
+                <form class="header__search-form">
+                  <input type="search" placeholder="Search..." class="">
+                  <button type="submit" class="search">Search</button>
+                </form>
+              </div>
+              <!-- Mobile nav -->
+              
+              <div  class="vertical-line"></div>
+
+             <!--log in account  -->
+            <a href="account.html" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1" stroke="#eee" class="user-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg> </a>
+                  
+      
+          <a href="account.html" class="btn btn--full" >SIGN UP</a>
+          </div>
+
+              <!-- MOBILE NAVIGATION -->
+          <div class="mob-nav">
+
+            <div class="icon-mobile-account">
+              <ion-icon class="icon icon-mobile-nav" name="search"></ion-icon>
+              <a href="account.html" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1" stroke="#eee" class="user-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg> </a>
+            </div>
+            <button class="btn-mobile-nav ">
+              
+              <ion-icon class="icon icon-mobile-nav" name="menu"></ion-icon>
+              <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+            </button>
+          
+          </div>
+      
+          
+          
+      </div>
+    
+    
+    </header>
+
+    <nav class="main-nav container nav-sticky">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link active" href="index.html">HOME</a></li>
+       
+       <!-- Nav with dowpdown -->
+        <li class="dropdown"><a class="main-nav-link " href="collections.html"><span class="text">COLLECTIONS</span><ion-icon name="chevron-down-outline" class="icon icon-white"></ion-icon></a>
+          <ul class="nav-menu ">
+            <li  class="main-nav-list"><a href="#" class= "main-nav-link" data-hover=" ">MYSETS</a></li>
+            <li class="main-nav-list"><a href="3" data-hover=" " class= "main-nav-link ">MOCs</a></li>
+            <li class="main-nav-list"><a href="3" data-hover=" " class= "main-nav-link ">WISHLIST</a></li>
+        </ul>
+
+        </li>
+        <li><a class="main-nav-link" href="about.html">ABOUT</a></li>
+        <li><a class="main-nav-link" href="blog.html">BLOG</a></li>
+        <li><a class="main-nav-link" href="contact.html">CONTACT</a></li>
+        
+      </ul>
+    </nav>
+
+    
+    <main class="">
+      
+      <section class="section-hero container margin-bottom-sm">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Welcome to my world
+            </h1>
+            <p class="hero-description">
+              Playing with LEGO gives  a really calming and relaxing effect and can be helpful for everyone, especially who may have anxiety or worries. Playing and creating with LEGO can bring a feeling of order to a chaotic or stressful day and can have huge therapeutic benefits.
+            </p>
+            <a href="#" class="btn btn--full margin-right-sm"
+              >See all my sets</a
+            >
+            <a href="#" class="btn btn--outline">View all MOCs &rarr;</a>
+            
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/hero-cover-img.png"
+              class="hero-img"
+              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+            />
+          </div>
+        </div>
+      </section>
+      
+      <section class="section-cta  margin-bottom-md">
+        
+      <div class="cta-box container ">
+        
+        
+       <p class="cta__title ">Keep in touch </p>
+        <p class="paragraph cta__text">Sign up to receive communications from me about new sets, product updates, promotions and much more.</p></div>
+
+         <a href="#" class="btn btn--full" >SIGN UP</a>
+      
+      </section>
+     
+    
+      
+      <!-- MOCS -->
+      <section class="section-mocs  ">
+        <h3 class="heading-secondary container">MOCs<span class="sets-num">(25 sets)</span></h3>
+        <div class="mocs-container container">
+
+        <div class="mocs">
+          <div class="moc__img "><a href=""><img src="img/mocs/oil.jpg" alt="" class="a1"></a></div>
+          <div class="moc__img "><a href=""><img src="img/mocs/bouque.jpg" alt="" class="b1"></a></div>
+          <div class="moc__img "><a href=""><img src="img/mocs/sets.jpg" alt="" class="a2"></a></div>
+          <!-- <div class="moc__img "><a href=""><img src="img/mocs/orchid.jpg" alt="" class="a3"></a></div>
+           <div class="moc__img "><a href=""><img src="img/mocs/police.jpg" alt="" class="b3"</a></div> -->
+       
+        </div>
+
+        <div class="moc__text">
+          <p class="moc__title">Look at what I've created!</p>
+          <p class="paragraph moc__descriptions">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <a href="#" class="btn btn--full ">View gallery</a>
+        </div>
+      </div>
+      </section>
+<!-- BLOG -->
+<section class=" container blog-link  margin-bottom-lg">
+  <div class="blog__text">
+    <p class="blog-msg margin-bottom-sm"><strong >Lorem ipsum dolor sit. Lorem, ipsum dolor. together!</strong></p>
+    <a href="blog.html" class="btn blog__button-full">Visit my blog</a>
+</div>
+  
+
+</section>
+      <!-- MYSETS -->
+      
+      <section class=" container section-sets margin-bottom-lg ">
+        <div class="sets__title">
+        <h3 class="heading-secondary margin-bottom-md">MY LEGO SETS <span class="sets-num">(45 sets)</span></h3>
+        <div class="sets__nav">
+        <div class="view-more">
+          <a href="#" class="quickview "><span class="text ">Sort by:A - Z</span><ion-icon class="icon" name="chevron-down-outline"></ion-icon></a>
+          </div>
+        <div class="view-more">
+          <a href="collections.html" class="quickview "><span class="text ">View all sets</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+          </div> 
+        </div>   
+        </div> 
+         
+         
+          <div class="sets-container grid">
+           
+           
+          <div class=" card-lego-set ">
+            <div class="sets__cover">
+            <a href="#" class="link"><img src="img/mysets/so-beautifuly.jpg" alt="Cherry Flower" class="lego-set__img"></a>  
+            </div>  
+            
+            <div class="sets__descriptions">
+           <a href="#" class="link"><p class="paragraph post__title ">CATTERHAM SERVER 620
+            </p></a>
+            <p class="text">Lorem, ipsum dolor sit amet consect adipisicing elit.</p>
+            </div>
+            <!-- Quick view and favourite -->
+            <div class="action">
+            <a href="#" class="icon"><ion-icon name="heart-outline" class="icon"></ion-icon></a>
+            <div class="view-more">
+            <a href="#" class="quickview "><span class="text ">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+          </div>
+          
+          </div>
+
+
+         <div class=" card-lego-set ">
+            <div class="sets__cover">
+            <a href="#" class="link"><img src="img/mysets/war-craft.jpg" alt="war-craft" class="lego-set__img"></a>  
+            </div>  
+            
+            <div class="sets__descriptions">
+           <a href="#" class="link"><p class="paragraph post__title ">CATTERHAM SERVER 620
+            </p></a>
+            <p class="text">Lorem, ipsum dolor sit amet consect adipisicing elit.</p>
+            </div>
+            <!-- Quick view and favourite -->
+            <div class="action">
+            <ion-icon name="heart-outline" class="icon"></ion-icon>
+            <div class="view-more">
+            <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+            </div> 
+          </div>
+          
+        </div>
+      
+        
+        <div class=" card-lego-set ">
+          <div class="sets__cover">
+          <a href="#" class="link"><img src="img/mysets/tank-car.jpg" alt="tank-car" class="lego-set__img"></a>  
+          </div>  
+          
+          <div class="sets__descriptions">
+         <a href="#" class="link"><p class="paragraph post__title ">CATTERHAM SERVER 620
+          </p></a>
+          <p class="text">Lorem, ipsum dolor sit amet consect adipisicing elit. </p>
+          </div>
+          <!-- Quick view and favourite -->
+          <div class="action">
+          <ion-icon name="heart-outline" class="icon"></ion-icon>
+          <div class="view-more">
+          <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+          </div> 
+        </div>
+        
+        </div>
+  
+      
+        
+        <div class=" card-lego-set ">
+          <div class="sets__cover">
+          <a href="#" class="link"><img src="img/mysets/bobo.jpg" alt="White dog" class="lego-set__img"></a>  
+          </div>  
+          
+          <div class="sets__descriptions">
+         <a href="#" class="link"><p class="paragraph post__title ">CATTERHAM SERVER 620
+          </p></a>
+          <p class="text">Lorem, ipsum dolor sit amet consect adipisicing elit. </p>
+          </div>
+          <!-- Quick view and favourite -->
+          <div class="action">
+          <ion-icon name="heart-outline" class="icon"></ion-icon>
+          <div class="view-more">
+          <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+          </div> 
+        </div>
+        
+         </div>
+         <div class=" card-lego-set ">
+          <div class="sets__cover">
+          <a href="#" class="link"><img src="img/mysets/catterham-server-620.jpg" alt="catterham-server-620" class="lego-set__img"></a>  
+          </div>  
+          
+          <div class="sets__descriptions">
+         <a href="#" class="link"><p class="paragraph post__title ">CATTERHAM SERVER 620
+          </p></a>
+          <p class="text">Lorem, ipsum dolor sit amet consect adipisicing elit. </p>
+          </div>
+          <!-- Quick view and favourite -->
+          <div class="action">
+          <ion-icon name="heart-outline" class="icon"></ion-icon>
+          <div class="view-more">
+          <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+          </div> 
+        </div>
+        
+        </div>
+        <div class=" card-lego-set ">
+          <div class="sets__cover">
+          <a href="#" class="link"><img src="img/mysets/tajmahal.jpg" alt="Tajmahal" class="lego-set__img"></a>  
+          </div>  
+          
+          <div class="sets__descriptions">
+         <a href="#" class="link"><p class="paragraph post__title ">SUPERMARIO GUARDED FORTRESS
+          </p></a>
+          <p class="text">Lorem, ipsum dolor sit amet consect adipisicing elit.</p>
+          </div>
+          <!-- Quick view and favourite -->
+          <div class="action">
+          <ion-icon name="heart-outline" class="icon"></ion-icon>
+          <div class="view-more">
+          <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+          </div> 
+        </div>
+        
+        </div>
+        <div class=" card-lego-set ">
+          <div class="sets__cover">
+          <a href="#" class="link"><img src="img/mysets/tala-inn.jpg" alt="tala-inn" class="lego-set__img"></a>  
+          </div>  
+          
+          <div class="sets__descriptions">
+         <a href="#" class="link"><p class="paragraph post__title ">SUPERMARIO GUARDED FORTRESS
+          </p></a>
+          <p class="text">Lorem, ipsum dolor sit amet consect adipisicing elit. </p>
+          </div>
+          <!-- Quick view and favourite -->
+          <div class="action">
+          <ion-icon name="heart-outline" class="icon"></ion-icon>
+          <div class="view-more">
+          <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+          </div> 
+        </div>
+        
+        </div>
+        <div class=" card-lego-set ">
+          <div class="sets__cover">
+          <a href="#" class="link"><img src="img/mysets/white-robot-head.jpg" alt="tala-inn" class="lego-set__img"></a>  
+          </div>  
+          
+          <div class="sets__descriptions">
+         <a href="#" class="link"><p class="paragraph post__title ">SUPERMARIO GUARDED FORTRESS
+          </p></a>
+          <p class="text">Lorem, ipsum dolor sit amet consect adipisicing elit. </p>
+          </div>
+          <!-- Quick view and favourite -->
+          <div class="action">
+          <ion-icon name="heart-outline" class="icon"></ion-icon>
+          <div class="view-more">
+          <a href="#" class="link "><span class="text">Quick view</span><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></a>
+          </div> 
+        </div>
+        
+        </div>
+    
+      </div>
+      <div class="pagination paragraph">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a  href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+      </div>       
+           
+     
+      </section>
+     
+
+            
+      
+    
+
+    </main >
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="index.html" class="footer-logo">
+            <img class="logo" alt="Brick by Brick logo" src="img/logos/bb-logo-white.png" />
+          </a>
+          <div>
+          <ul class="social-links">
+              <p class="social-links-title">Follow me on:</p>
+             <li> 
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2022 Design and developed by Sui Ca Khen. All rights reserved.
+          </p>
+          </div>
+      </div>
+        <div class="address-col">
+          <p class="footer-heading"> Menu</p>
+         
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="collections.html">Collections</a></li>
+              <li><a class="footer-link" href="mysets.html">My sets</a></li>
+              <li><a class="footer-link" href="mocs.html">MOCs</a></li>
+              <li><a class="footer-link" href="wishlist.html">My wishlist</a></li> 
+            </ul>
+           
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="account.html">Create account</a></li>
+            <li><a class="footer-link" href="account.html">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+            
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">About Us</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="about.html">About Brick by Brick</a></li>
+            <li><a class="footer-link" href="contact.html">Contact us</a></li>
+            <li><a class="footer-link" href="blog.html">Join our community</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+
+          </ul>
+        </nav>
+
+       
+      </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

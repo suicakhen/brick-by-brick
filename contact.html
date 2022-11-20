@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="http//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    
+    <title>Brick by Brick - Profile </title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  </head>
+  <body>
+    <header class=" header-container sticky ">
+      <!-- HEADER -->
+      <div class="header container">
+         
+          <a href="index.html">
+            <img class="header__logo " alt="Brick By Brick logo" src="img/logos/bb-logo-white.png" />
+          </a>
+       
+          <div class="header__account">
+              <div class="search-container">
+                <form class="header__search-form">
+                  <input type="search" placeholder="Search..." class="">
+                  <button type="submit" class="search">Search</button>
+                </form>
+              </div>
+              <!-- Mobile nav -->
+              
+              <div  class="vertical-line"></div>
+
+             <!--log in account  -->
+             <div class="account-user">
+            <a href="collections.html" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1" stroke="#eee" class="user-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg> </a>
+                <p class="user-name">Joseph</p>    
+              </div>
+          <a href="account.html" class="btn btn--full" >SIGN UP</a>
+          </div>
+
+              <!-- MOBILE NAVIGATION -->
+          <div class="mob-nav">
+
+            <div class="icon-mobile-account ">
+              <ion-icon class="icon icon-mobile-nav" name="search"></ion-icon>
+              <div class="account-user">
+              <a href="collections.html" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1" stroke="#eee" class="user-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg> </a>
+                <p class="paragraph user-name">Joseph</p></div>
+            </div>
+            <button class="btn-mobile-nav ">
+              
+              <ion-icon class="icon icon-mobile-nav" name="menu"></ion-icon>
+              <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+            </button>
+          
+          </div>
+      
+          
+          
+      </div>
+    
+    
+    </header>
+
+    <nav class="main-nav container nav-sticky">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="index.html">HOME</a></li>
+       
+       <!-- Nav with dowpdown -->
+        <li class="dropdown"><a class="main-nav-link " href="collections.html"><span class="text">COLLECTIONS</span><ion-icon name="chevron-down-outline" class="icon icon-white"></ion-icon></a>
+          <ul class="nav-menu ">
+            <li  class="main-nav-list"><a href="#" class= "main-nav-link" data-hover=" ">MYSETS</a></li>
+            <li class="main-nav-list"><a href="3" data-hover=" " class= "main-nav-link ">MOCs</a></li>
+            <li class="main-nav-list"><a href="3" data-hover=" " class= "main-nav-link ">WISHLIST</a></li>
+        </ul>
+
+        </li>
+        <li><a class="main-nav-link" href="about.html">ABOUT</a></li>
+        <li><a class="main-nav-link" href="blog.html">BLOG</a></li>
+        <li><a class="main-nav-link active" href="contact.html">CONTACT</a></li>
+        
+      </ul>
+    </nav>
+
+    <main class="container">
+      <!-- PAGE BREADCRUM -->
+      <div class="page__breadcrumb">
+        <h2 class="page__title heading-secondary">CONTACT</h2>
+        <div >
+          <ul class="breadcrumb__list">
+            <li><a class= "link" href="blog.html"><p >HOME</p></a></li>
+            <li><ion-icon name="chevron-forward-outline"></ion-icon></li>
+            <li><a class="link" href="about.html"><strong >CONTACT ME</strong></a></li>
+            
+          </ul>
+
+        </div>
+
+      </div>
+
+      <!-- ACCOUNT LOGIN/SIGN UP  -->
+     <section class="section-account margin-bottom-md ">
+      
+         
+            <div class="account__contact margin-bottom-md">
+            <ion-item>
+              <ion-icon name="mail-outline" class="icon"></ion-icon><span class="text paragraph">josephsmith@example.com</span></ion-item>
+              <ion-item><ion-icon class="icon" name="call-outline"></ion-icon><span class="text paragraph">0412 456 789</span></ion-item>
+              
+                
+              <ul class="social-links">
+                <p class="paragraph"><i> Connect with me:</i></p>
+                <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+            </ul>
+           
+          </div>
+          <p class="paragraph one">Please fill out the form below and  I will get back to you. </p>
+          <div class="account__form">
+            
+
+            <form action="" class="contact-form">
+              <div >
+              <input type="text" name="name" id="name" placeholder="Full name" ></div>
+                <div >
+              <input type="email" name="email" id="email" placeholder="john.doe@example.com"></div>
+             
+             <div >
+             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div> 
+            <div >
+             <input type="submit" value="SEND"></div>
+           
+
+
+            </form>
+          </div>
+          
+     </section>
+    </main >
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="index.html" class="footer-logo">
+            <img class="logo" alt="Brick by Brick logo" src="img/logos/bb-logo-white.png" />
+          </a>
+          <div>
+          <ul class="social-links">
+              <p class="social-links-title">Follow me on:</p>
+             <li> 
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2022 Design and developed by Sui Ca Khen. All rights reserved.
+          </p>
+          </div>
+      </div>
+        <div class="address-col">
+          <p class="footer-heading"> Menu</p>
+         
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="collections.html">Collections</a></li>
+              <li><a class="footer-link" href="mysets.html">My sets</a></li>
+              <li><a class="footer-link" href="mocs.html">MOCs</a></li>
+              <li><a class="footer-link" href="wishlist.html">My wishlist</a></li> 
+            </ul>
+           
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="account.html">Create account</a></li>
+            <li><a class="footer-link" href="account.html">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+            
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">About Us</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="about.html">About Brick by Brick</a></li>
+            <li><a class="footer-link" href="contact.html">Contact us</a></li>
+            <li><a class="footer-link" href="blog.html">Join our community</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+
+          </ul>
+        </nav>
+
+       
+      </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
