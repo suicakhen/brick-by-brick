@@ -284,6 +284,9 @@
     .mocs-container{
         margin:0 2.4rem;
     }
+    .section-sets{
+        margin:0 1.2rem;}
+        
     .sets__descriptions .text{  
         display: none;
       }
