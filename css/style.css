@@ -415,8 +415,8 @@ flex-direction: column;
 }
 /* BLOG SECTION */
 .blog-link{
-/*   background-image: url('/img/cta-img.jpg'); */
-  background-color:##6AAC3C;
+ background-image: url('img/blog-bg.jpg'); */
+
   background-size: contain; 
   height: 36rem;
   position: relative;
