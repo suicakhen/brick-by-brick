@@ -51,7 +51,7 @@
 @media(max-width:59em){
    .container{
     max-width:59rem;
-        margin:0;
+        margin:0 1.2rem;
 }
     .header{
         height: 6rem;
@@ -241,7 +241,7 @@
          }
     
     .blog__cover-img{
-         width: 80%;
+         width: 100%;
          height: auto;
         }
 
@@ -264,7 +264,7 @@
 @media(max-width:34em){
    container{
        max-width:34rem;
-     margin:0;
+     margin:0 1.2rem;
     }
     /*BLOG  */
  
