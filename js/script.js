@@ -1,8 +1,13 @@
 //  mobile navigation 
 
-const btnNavEl = document.querySelector(".btn-mobile-nav");
-const headerEl = document.querySelector(".main-nav");
 
-btnNavEl.addEventListener("click", function () {
-  headerEl.classList.toggle("nav-open");
-});
+function myFunction() {
+  var x = document.getElementById("mylinks");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+
+}
+document.getElementById('menuicon').addEventListener('click',myFunction);
