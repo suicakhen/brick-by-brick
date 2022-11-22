@@ -267,13 +267,6 @@
 /*BELOW 544PX (Potrait Tablet)*/
 /**************************/
 @media(max-width:34em){
-   
-    /*  Index-MOCs    */
-    .mocs-container{
-/*   padding: 2.4rem; */
-}
-
-
     
     .mocs__text{
         width:32rem;
