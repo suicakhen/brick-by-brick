@@ -249,6 +249,15 @@
                 width: 100%;
                 margin:2.4
               }
+    /* Product Details */
+             .section-item{
+              flex-direction: column;
+             }
+             
+             .section-item__info{
+              flex-direction: column;
+              gap: 6.4rem;
+             }
           
 }
 
