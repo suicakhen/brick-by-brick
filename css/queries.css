@@ -54,15 +54,21 @@
         height: 6rem;
     }
 
+
    .header__account,.main-nav{
     display: none;
    }
-
-   
-   .mob-nav{
+   .topnav,.mob-icon{
     display: flex;
-    gap: 2.4rem;  
    }
+   .menuicon{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+   }
+
+
    /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
