@@ -511,6 +511,7 @@ flex-direction: column;
     padding: 4.8rem;
     height:70vh ;
     background-blend-mode: lighten;
+  z-index:-100;
 }
 
 
