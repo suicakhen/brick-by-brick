@@ -320,6 +320,10 @@
     .catalogue__filter{
       display: none;
     }
+    
+    .action{
+        padding:1.2;
+    }
 
     /* BLOG */
     .card-post{
