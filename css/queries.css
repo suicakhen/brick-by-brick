@@ -259,6 +259,13 @@
 /**************************/
 @media(max-width:34em){
    
+    /*  Index-MOCs    */
+    .mocs{
+        witdth:100%;
+        margin:0 1.2rem;
+    }
+    
+    
     /*BLOG  */
  
     .blog-link{
