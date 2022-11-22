@@ -181,6 +181,13 @@
         background-color: rgba(238, 238, 238, 0.659);
        padding: 6.4rem 1.2rem;
        }
+    
+        .blog-container{
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+            width:100%;
+       }
+    
         .blog__text{
             width: 70%;
         }
@@ -197,6 +204,15 @@
             display: inline-block;
             text-align: center;
         }
+    
+        .popular-post{
+            flex-direction:column;
+         }
+                
+    
+    
+    
+    
         .sets__nav{
           align-items: flex-end;
         }
