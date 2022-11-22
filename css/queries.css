@@ -51,10 +51,11 @@
 @media(max-width:59em){
    .container{
     max-width:59rem;
+        margin:0;
 }
     .header{
         height: 6rem;
-        margin:0;
+       
     }
 
 
@@ -262,7 +263,9 @@
 /**************************/
 @media(max-width:34em){
    container{
-       max-width:34rem;}
+       max-width:34rem;
+     margin:0;
+    }
     /*BLOG  */
  
     .blog-link{
