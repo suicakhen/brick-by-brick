@@ -49,7 +49,9 @@
 /*BELOW 944PX (Potrait Tablet)*/
 /**************************/
 @media(max-width:59em){
- 
+   .container{
+    max-width:59rem;
+}
     .header{
         height: 6rem;
         margin:0;
@@ -259,7 +261,8 @@
 /*BELOW 544PX (Potrait Tablet)*/
 /**************************/
 @media(max-width:34em){
-   
+   container{
+       max-width:34rem;}
     /*BLOG  */
  
     .blog-link{
