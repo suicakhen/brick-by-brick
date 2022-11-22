@@ -101,22 +101,42 @@ input[type="search"]:focus {
 /**************************/
 
 /* MOBILE */
-.icon-mobile-account{
-  display: flex;
-  gap: 2.4rem;
-  align-items: center;
+.header{
+  position: relative;
 }
-.mob-nav{
+.topnav{
+  overflow: hidden;
   display: none;
+}
+.mob-icon{
+  display: none;
+}
+
+.topnav #mylinks{
+  display: none;
+}
+
+#mylinks{
+  position: absolute;
+  top: 6.2rem;
+  right: 0;
   
 }
 
-.btn-mobile-nav {
-  border: none;
-  background: none;
-  cursor: pointer;
-  display: none;
+.mob-nav-link{
+  font-size: 1.8rem;
+  color: #eee;
+  display: block;
+  padding:2.4rem 6.4rem;
+  text-align: center;
+  background-color: #2bb24a;
+ 
 }
+
+.mob-nav-link:hover{
+  border-bottom: 1px solid #ccc;
+}
+
 
 .icon-mobile-nav {
   height: 3.2rem;
@@ -125,9 +145,13 @@ input[type="search"]:focus {
   padding-left: 2.4rem;
 }
 
-.icon-mobile-nav[name="close-outline"] {
-  display: none;
+
+.icon-mobile-account{
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
 }
+/*  Desktop Navigation*/
 .main-nav-list {
   height: 3.6rem;
  background-color: #55a020df; 
