@@ -273,25 +273,7 @@
 /*   padding: 2.4rem; */
 }
 
-.a1,.b1,.a3,.b3{
-  width:18rem ;
-  height: 18rem;
-}
 
-.a2{
-  width: 37rem;
-  height: 15rem;
-}
-
-.mocs{
-  display:grid;
-  width:37rem;
-  height:auto;
-  grid-template-areas:
-  "a1 b1"
-   "a2 ." 
-   "a3 b3";
-    grid-gap:1rem;}
     
     .mocs__text{
         width:32rem;
