@@ -274,24 +274,24 @@
 }
 
 .a1,.b1,.a3,.b3{
-  width:15rem ;
-  height: 15rem;
+  width:18rem ;
+  height: 18rem;
 }
 
 .a2{
-  width: 38rem;
+  width: 37rem;
   height: 15rem;
 }
 
 .mocs{
   display:grid;
-  width:38rem;
+  width:37rem;
   height:auto;
   grid-template-areas:
   "a1 b1"
    "a2 ." 
    "a3 b3";
-    grid-gap:0.8rem;}
+    grid-gap:1rem;}
     
     .mocs__text{
         width:32rem;
