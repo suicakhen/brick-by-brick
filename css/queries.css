@@ -267,7 +267,8 @@
               
               .contact-form input,
               textarea{
-                width: 70%;
+                width: 100%;
+                margin:2.4
               }
           
 }
@@ -374,9 +375,28 @@
       border-radius: 0;
       background-blend-mode: lighten;
     }
-     .contact-form input,
-              textarea{
-                width: 75%;
-              }
+/*   Account   */
+    .section-account{
+        padding:0;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+
+      }
+
+      .account-form{
+        text-align: left;
+      }
+
+
+      .forgot-pw{
+        font-size: 1.4rem;
+        padding-left: 20rem;
+        margin-bottom: 3.2rem;
+
+      }
+
+      .account-form input{
+        width: 100%};
+      }
 
   }
