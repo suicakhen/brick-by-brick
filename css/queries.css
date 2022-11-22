@@ -260,10 +260,29 @@
 @media(max-width:34em){
    
     /*  Index-MOCs    */
-    .mocs{
-        witdth:100%;
-        margin:0 1.2rem;
-    }
+    .mocs-container{
+  padding: 2.4rem;
+}
+
+.a1,.b1,.a3,.b3{
+  width:15rem ;
+  height: 15rem;
+}
+
+.a2{
+  width: 38rem;
+  height: 15rem;
+}
+
+.mocs{
+  display:grid;
+  width:38rem;
+  height:auto;
+  grid-template-areas:
+  "a1 b1"
+   "a2 ." 
+   "a3 b3";
+  grid-gap:0.8rem;
     
     
     /*BLOG  */
