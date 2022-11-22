@@ -369,6 +369,7 @@
 
     .profile__bio{
       flex-direction: column;
+      margin:0 1.2rem;
       
     }
     .biography,.interests{
