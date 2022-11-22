@@ -295,7 +295,7 @@
       
     }
     .quickview{
-        font-size: 0.8rem;  
+        font-size: 0.6rem;  
     }
     .sets__nav{
         margin-bottom: 1.2rem;
@@ -314,7 +314,7 @@
       font-size: 1.2rem;
     }
     .card-collections{
-      width: 18rem;
+      width: 100%;
       height: auto;
     }
     .catalogue__filter{
